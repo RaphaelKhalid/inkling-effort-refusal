@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Raw model completions are not published. The repo ships prompts, labels and
+# aggregate rates; it does not redistribute model output on harmful prompts.
+results/sweep.jsonl
+results/labelled.jsonl
+results/sweep-*.jsonl
+results/labelled-*.jsonl
+results/_*
