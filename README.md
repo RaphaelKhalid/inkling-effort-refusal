@@ -92,9 +92,11 @@ Using the labeller humans agree with, on both models:
 - **Over-refusal falls as effort rises.** 2.8% → 0.9% on Inkling-Small
   (p = 0.069), 1.2% → 0.4% on Inkling (**p = 0.033**). Small, consistent,
   replicated.
-- **The dial demonstrably works.** Mean thinking length runs 106 → 536 tokens on
-  Inkling-Small and 130 → 679 on Inkling, monotone in both. The model thought
-  roughly five times longer and refused no differently.
+- **The dial demonstrably works.** Mean reasoning length runs 106 → 536 tokens on
+  Inkling-Small (Spearman 1.000 against effort) and 130 → 362 on Inkling
+  (Spearman 0.900; its `none` and `low` levels are within two tokens of each
+  other, so the ordering there is not clean). The models reasoned three to five
+  times longer at the top of the dial and refused no differently.
 
 Useful direction for a null: it is evidence that Thinking Machines' single-point
 safety number at effort 0.99 generalises down the dial.
