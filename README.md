@@ -1,4 +1,4 @@
-# When the ruler bends with the thing you're measuring
+# Does refusal behaviour change across the reasoning-effort dial?
 
 Two published refusal labellers score the same 5,100 model responses and reach
 opposite conclusions. The XSTest string matcher says reasoning effort makes
